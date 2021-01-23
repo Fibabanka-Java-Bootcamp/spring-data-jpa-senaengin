@@ -4,7 +4,7 @@ import javax.persistence.*;
 
 @Entity
 public class User {
-    @Id
+    @Id 
     @GeneratedValue
     private int id;
 

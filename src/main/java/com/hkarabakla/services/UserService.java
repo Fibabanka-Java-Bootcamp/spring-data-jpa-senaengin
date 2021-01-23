@@ -16,11 +16,11 @@ public class UserService {
 
     public void userOperations() {
         User u = new User();
-        u.setName("user");
+        u.setName("Sena");
 
         Address address = new Address();
-        address.setStreet("Gazo sokak");
-        address.setNumber("7");
+        address.setStreet("Camii sokak");
+        address.setNumber("9");
         address.setCity("Istanbul");
 
         u.setAddress(address);
